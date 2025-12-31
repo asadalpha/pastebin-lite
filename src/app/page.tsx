@@ -32,7 +32,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-16 pt-8 border-t border-zinc-200">
           <p className="text-xs font-mono text-zinc-400 text-center">
-            Next.js × NeonDB × Drizzle
+            Pastebin Lite 
           </p>
         </footer>
       </div>
