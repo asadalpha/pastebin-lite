@@ -48,7 +48,7 @@ The database schema includes a single `pastes` table with the following fields:
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/asadalpha/pastebin-lite.git
    cd pastebin-lite
    ```
 
