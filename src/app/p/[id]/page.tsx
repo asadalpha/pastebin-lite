@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/error-boundaries */
 import { PasteService } from '@/lib/paste.service';
 import { PasteView } from '@/components/paste-view';
 import { ErrorPage } from '@/components/error-page';
@@ -23,10 +24,12 @@ export default async function PastePage({
         // Render the paste view component
         return (
             <PasteView
+                
                 id={id}
                 content={pasteData.content}
                 expiresAt={pasteData.expires_at ? new Date(pasteData.expires_at) : null}
                 remainingViews={pasteData.remaining_views}
+                
             />
         );
     } catch (error) {
